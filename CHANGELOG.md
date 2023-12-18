@@ -1,6 +1,13 @@
 ## 0.1.2
 * Not starting at 0.0.1 or 0.1.0.
 
+## [0.2.0](https://github.com/patrickhammond/patrick_util/compare/v0.1.2...v0.2.0) (2023-12-18)
+
+
+### Features
+
+* automated pub.dev publish ([da57afb](https://github.com/patrickhammond/patrick_util/commit/da57afb8363316e24b7350fff0f3a89b6d4371d0))
+
 ## 0.1.2 (2023-12-18)
 
 
