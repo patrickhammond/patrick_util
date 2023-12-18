@@ -1,6 +1,6 @@
 name: patrick_util
 description: "Patrick's utililty code"
-version: 0.2.6
+version: 0.2.7
 homepage: https://github.com/patrickhammond/patrick_util
 
 environment:
