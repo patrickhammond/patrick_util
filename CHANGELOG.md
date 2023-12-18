@@ -1,6 +1,13 @@
 ## 0.1.2
 * Not starting at 0.0.1 or 0.1.0.
 
+## [0.2.1](https://github.com/patrickhammond/patrick_util/compare/v0.2.0...v0.2.1) (2023-12-18)
+
+
+### Bug Fixes
+
+* different release type trigger? ([e502c56](https://github.com/patrickhammond/patrick_util/commit/e502c5662cd93831a2ec74527c83e96ae1a5034c))
+
 ## [0.2.0](https://github.com/patrickhammond/patrick_util/compare/v0.1.2...v0.2.0) (2023-12-18)
 
 
