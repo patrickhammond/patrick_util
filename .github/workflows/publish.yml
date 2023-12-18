@@ -1,8 +1,7 @@
 name: Publish to pub.dev
 on:
-  push:
-    tags:
-      - "v[0-9]+.[0-9]+.[0-9]+*"
+  release:
+    types: [created]
 jobs:
   publish:
     # Leveraged from https://github.com/dart-lang/setup-dart/blob/main/.github/workflows/publish.yml but made to support Flutter
@@ -12,11 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Ensure a Dart/Flutter toolchain JWT is available for automated publishes to pub.dev
+      - uses: dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d
+      # Ensure Flutter is availalble
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
-      # Setup Dart SDK with a JWT token for pub.dev auth
-      #- uses: dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d
       - name: Install dependencies
         run: flutter pub get
       - name: Publish - dry run
