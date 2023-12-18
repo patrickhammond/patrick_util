@@ -5,6 +5,13 @@
 
 * different release type trigger? ([e502c56](https://github.com/patrickhammond/patrick_util/commit/e502c5662cd93831a2ec74527c83e96ae1a5034c))
 
+## [0.2.6](https://github.com/patrickhammond/patrick_util/compare/v0.2.5...v0.2.6) (2023-12-18)
+
+
+### Bug Fixes
+
+* simplify ([8d33985](https://github.com/patrickhammond/patrick_util/commit/8d339851a4d44dbd7cc2b5bb206f21b42cbd5ff8))
+
 ## [0.2.5](https://github.com/patrickhammond/patrick_util/compare/v0.2.4...v0.2.5) (2023-12-18)
 
 
