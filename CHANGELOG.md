@@ -5,6 +5,14 @@
 
 * different release type trigger? ([e502c56](https://github.com/patrickhammond/patrick_util/commit/e502c5662cd93831a2ec74527c83e96ae1a5034c))
 
+## [0.2.2](https://github.com/patrickhammond/patrick_util/compare/v0.2.1...v0.2.2) (2023-12-18)
+
+
+### Bug Fixes
+
+* changelog cleanup ([0b083bd](https://github.com/patrickhammond/patrick_util/commit/0b083bdbed5f1c354ee570e6a33b4518bd397de1))
+* different gh event? ([1de8bad](https://github.com/patrickhammond/patrick_util/commit/1de8bad0ca52bd399684d1d5f2e3daae8666e4de))
+
 ## [0.2.0](https://github.com/patrickhammond/patrick_util/compare/v0.1.2...v0.2.0) (2023-12-18)
 
 
