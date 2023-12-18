@@ -15,7 +15,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
-      # Setup Dart SDK with JWT token for pub.dev auth
+      # Setup Dart SDK with a JWT token for pub.dev auth
       #- uses: dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d
       - name: Install dependencies
         run: flutter pub get
